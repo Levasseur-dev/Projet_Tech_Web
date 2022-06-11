@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Filmox</title>
+    <link href="../styles/editFilmForm.css" rel="stylesheet">
+    <link rel="icon" href="../media/icone.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../scripts/editFilmForm.js"></script>
+
+</head>
+<body id ="body">
+<div id="header">
+    <h1 id="titre"> <img src="../media/icone.png" style="max-height: 60px;"> MODIFIER UN FILM</h1>
+    <ul id="navbar">
+        <li><a href="homepage.html"><h2>ACCUEIL</h2></a></li>
+        <li><a href="realisateurs.html"><h2>REALISATEURS</h2></a></li>
+        <li><a href="genres.html"><h2>GENRES</h2></a></li>
+        <li><a href="newFilmForm.html"><h2>AJOUTER UN FILM</h2></a></li>
+    </ul>
+</div>
+
+<div class="form-group">
+    Titre : <input type="text" name="name" id="name-input">
+    Note : <input type="number" name="rate" id="rate-input" min="0" max="5" value="0">
+    Url Affiche : <input type="text" name="affiche" id="affiche-input">
+
+    Genre :
+    <select id="selectGenres"></select>
+    <button id="newGenre"> Ajouter nouveau genre </button>
+    <div id="displayGenrePost" style="display:none;">
+        <input type="text" name="genre" placeholder="Nom du genre" id="genreInput">
+        <button id="addbtnGenre"> Ajouter le genre </button>
+    </div>
+
+    Réalisateurs :
+    <div id="form-group-realisateurs"></div>
+    <button id="newRealisateur"> Ajouter un nouveau réalisateur</button>
+    <div id="displayRealisateurPost" style="display:none;">
+        <input type="text" name="realisateur" placeholder="Nom du réalisateur" id="realisateurInput">
+        <button id="addbtnRealisateur"> Ajouter le réalisateur </button>
+    </div>
+
+    Date : <input type="number" name="date" id="date-input" min="1950" max="2022" step="1" value="2021" >
+
+    <a href="homepage.html"><input type="button" id="addbtnFilm" name="addbtn" value="Modifier le film" /></a>
+</div>
+</body>
+</html>

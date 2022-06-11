@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filmox</title>
+    <link href="../styles/genres.css" rel="stylesheet">
+    <link rel="icon" href="../media/icone.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../scripts/genres.js"></script>
+
+</head>
+<body id="body">
+<div id="header">
+    <h1 id="titre"> <img src="../media/icone.png" style="max-height: 60px;"> GENRES</h1>
+    <ul id="navbar">
+        <li><a href="homepage.html"><h2>ACCUEIL</h2></a></li>
+        <li><a href="realisateurs.html"><h2>REALISATEURS</h2></a></li>
+        <li><a href="newFilmForm.html"><h2>AJOUTER UN FILM</h2></a></li>
+    </ul>
+</div>
+<div>
+    <h2 id="titreListe"> <img src="../media/genre.png" style="max-height: 24px;"> Liste des genres :</h2>
+    <table id="listRealisateur">
+        <tr>
+            <td>Id</td>
+            <td>Nom</td>
+            <td>Modifier</td>
+            <td>Supprimer</td>
+        </tr>
+    </table>
+    <div id="newGenre">
+        <label for="newgenreInput">Ajouter un genre :</label>
+        <input id="newgenreInput" placeholder="Nom du genre">
+        <button id="submitNewGenre"> Ajouter</button>
+    </div>
+
+</div>
+
+</body>
+</html>

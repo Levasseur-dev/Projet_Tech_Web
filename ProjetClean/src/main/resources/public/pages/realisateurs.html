@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filmox</title>
+    <link href="../styles/realisateurs.css" rel="stylesheet">
+    <link rel="icon" href="../media/icone.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../scripts/realisateurs.js"></script>
+
+</head>
+<body id="body">
+<div id="header">
+    <h1 id = "titre"> <img src="../media/icone.png" style="max-height: 60px;"> REALISATEURS </h1>
+    <ul id="navbar">
+        <li><a href="homepage.html"><h2>ACCUEIL</h2></a></li>
+        <li><a href="genres.html"><h2>GENRES</h2></a></li>
+        <li><a href="newFilmForm.html"><h2>AJOUTER UN FILM</h2></a></li>
+    </ul>
+</div>
+<div>
+    <h2 id="titreListe"> <img src="../media/realisateur.png" style="max-height: 24px;"> Liste des réalisateurs :</h2>
+    <table id="listRealisateur">
+        <tr>
+            <td>Id</td>
+            <td>Nom</td>
+            <td>Modifier</td>
+            <td>Supprimer</td>
+        </tr>
+    </table>
+    <div id="newRealisateur">
+        <label for="newRealisateurInput">Ajouter un réalisateur :</label>
+        <input id="newRealisateurInput" placeholder="Nom du réalisateur">
+        <button id="submitNewRealisateur"> Ajouter</button>
+    </div>
+
+</div>
+
+</body>
+</html>

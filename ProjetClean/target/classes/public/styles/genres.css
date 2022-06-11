@@ -1,0 +1,82 @@
+html{
+
+}
+
+#body{
+    background-color: #85C1E9;
+}
+
+#titre{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 50px;
+    color : white;
+}
+
+#titreListe{
+        font-family: verdana;
+        font-weight: bold;
+        font-size: 24px;
+}
+
+#listRealisateur{
+        font-family: verdana;
+        font-weight: bold;
+        font-size: 24px;
+        background: #2980B9 ;
+}
+
+#navbar{
+    background-color: #2980B9 ;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+#navbar a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color:black;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    background-color: #21618C;
+    color: white;
+    text-align:center
+    margin:auto
+    display:flex
+}
+
+#navbar li {
+    display: inline;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
+td {
+    text-align: center;
+}
+
+#newGenre{
+    font-family: verdana;
+    font-size: 20px;
+    margin-top: 20px;
+}
